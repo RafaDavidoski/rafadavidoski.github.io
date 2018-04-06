@@ -141,10 +141,14 @@ hr {
 	}
 
 	#logo {
-		position: relative;
-		top: 40px;
-		right: 35%;
-		margin-bottom: 20px;
+		position: static;
+		width: 80px;
+		height: 80px;
+		margin: 20px auto 5px auto;
+	}
+	#description {
+		margin-top: 10px;
+		text-align: center;
 	}
 
 	#capa {
