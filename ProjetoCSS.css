@@ -1,4 +1,4 @@
-body{
+body {
    	padding: 0;
 	margin: 0;
 	font-family: 'Lato';
@@ -8,8 +8,6 @@ body{
 	color: white;
 	font-weight: bold;
 }
-
-
 
 .container {
 	width: 100%;
@@ -23,10 +21,11 @@ body{
 	width: 410px;
 	height: 100%;
 	float: left;
+	display: block;
 	color: #ccc;
 	font-weight: 600;
 	line-height: 30px;
-	min-width: 300px;
+	min-width: 320px;
 	text-align: right;
 	background-image: url("fog.jpg");
 	background-size: cover;
@@ -34,11 +33,10 @@ body{
 }
 
 #conteudo {
-/*	width: 60%;*/
-	max-width: 800px;
+	width: calc(100% - 410px - 30px);
 	height: 100%;
-	padding: 15px;
-	float: left;	
+	float: left;
+	padding: 20px 15px;	
 }
 
 #logo {
@@ -77,18 +75,11 @@ body{
 
 
 #t1 {
-	position: relative;
 	color: gray;	
-	top: 6%;
-	left: 10%;
 	font-size: 30px;
 }
 
 #t2 {
-	
-	position: relative;
-	top: 15%;
-	left: 10%;
 	color: darkgray;
 }
 
@@ -96,9 +87,6 @@ body{
 	width: 10%;
     padding: 1%;
     border: 2px solid lightgray;
-    position: relative;
-	top: 20%;
-	left: 10%;
 	color: gray;
 }
 
@@ -110,7 +98,7 @@ body{
 	left: 10%;
 }
 
-#t3{
+#t3 {
 	position: relative;
 	color: gray;	
 	top: 30%;
@@ -118,16 +106,14 @@ body{
 	
 }
 
-#imagem1{
-
+#imagem1 {
 	position: relative;
 	left: 0%;
 	width: 25%;
 	height: 50%;
 }
 
-#imagem2{
-
+#imagem2 {
 	position: relative;
 	left: 5%;
 	width: 30%;
@@ -139,6 +125,9 @@ body{
 		min-width: 320px;
 		width: 100%;
 		display: block;
+	}
+	#conteudo {
+		width: calc(100% - 30px);
 	}
 
 	#logo {
@@ -153,28 +142,19 @@ body{
 	}
 
 	#t1 {
-
-		position: relative;
 		color: gray;	
-		top: 6%;
 		font-size: 20px;
 	}
 
 	#t2{
-	
-		position: relative;
-		top: 10%;
 		font-size: 15px;
 		color: darkgray;
 	}
 
 	#caixa{
-    	position: relative;
 		width: 15%;
     	padding: 1%;
     	border: 2px solid lightgray;
-		top: 20%;
-		left: 50%;
 		color: gray;
 	}
 
@@ -182,15 +162,11 @@ body{
 	#linha{
 		position: relative;
 		color: darkgray;
-		top: 25%;
-		left: 10%;
 	}
 
 	#t3{
 		position: relative;
-		color: gray;	
-		top: 30%;
-		left: 10%;
+		color: gray;
 	}
 
 
