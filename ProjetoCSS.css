@@ -132,11 +132,12 @@ hr {
 
 @media (max-width: 640px) {
 	#capa, #conteudo {
-		min-width: 320px;
 		width: 100%;
+		height: 50%;
 		display: block;
 	}
 	#conteudo {
+		padding-top: 20px;
 		width: calc(100% - 30px);
 	}
 
@@ -162,8 +163,8 @@ hr {
 	}
 
 	#caixa{
-		width: 15%;
-    	padding: 1%;
+		width: 100px;
+		height: 40px;
     	border: 2px solid lightgray;
 		color: gray;
 	}
@@ -188,4 +189,8 @@ hr {
 		display: none;
 	}
 
+	#works img {
+		max-width: calc(100%);
+		margin-bottom: 20px;
+	}
 }
